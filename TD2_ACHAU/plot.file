@@ -1,0 +1,6 @@
+set terminal png size 800,600
+set output "factor.png"
+set title "Temps de factorisation"
+set xlabel "Taille des facteurs (bits)"
+set ylabel "Temps (µs)"
+plot "factor.dat" using 1:2 with linespoints title "Factorisation"
