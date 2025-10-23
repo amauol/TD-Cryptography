@@ -23,14 +23,6 @@ Ce projet/TD consiste en une suite de **chiffrements en C** réimplémentant les
 - Gestion simplifiée du chiffrement RSA
 - Tests basiques sur de petits tailles de blocs et clés
 
-## 🛠️ Améliorations futures
-
-- [ ] Implémentation de padding
-- [ ] Génération de clés sécurisées
-- [ ] Coalescence des blocs mémoire libres
-- [ ] Ajout d'un script de comparaison des perfomances
-- [ ] Tests unitaires automatisés
-
 
 ## 📚 Ressources
 
@@ -42,5 +34,5 @@ Ce projet/TD consiste en une suite de **chiffrements en C** réimplémentant les
 
 [@amauol](https://github.com/amauol)
 
-Projet réalisé dans le cadre du module **Criptographie** à l'INSA Centre Val de Loire.
+Projet réalisé dans le cadre du module **Cryptographie** à l'INSA Centre Val de Loire.
 
