@@ -2,42 +2,41 @@
 
 ## 📋 Description
 
-Ce projet/TD consiste en une suite de **chiffrements en C** réimplémentant les chiffrements les plus répandus (RSA,...). L'objectif est de comprendre en profondeur :
+Ce projet/TD consiste en une suite de **chiffrements en C** réimplémentant les chiffrements les plus répandus (RSA,...). L'objectif est de découvrir les modules de chiffrement et les comprendre.
 
-- 🧠 La logique des chiffrements
+- 🧠 La logique des chiffrements et déchiffrements
 - 📂 Les opérations d'échange de clé
-- 🔧 Les appels système bas niveau (read, write, open, close, brk/sbrk)
-- 💾 La manipulation de structures de données (listes chaînées)
+- 🔑 La génération et l'échange de clés
+- 💾 La manipulation de bloc de données binaires et de vecteurs d'initialisation
 
 ### 🎯 Objectifs pédagogiques
 
-- Comprendre l'implémentation réelle de `malloc()`, `free()`, `printf()`, `fopen()`, etc.
-- Maîtriser la gestion de buffers pour optimiser les I/O
+- Comprendre la logique interne des algorithmes de chiffrements symétriques et asymétriques
+- Implémentation de fonctions cryptographiques de base (GCD, XCCGD, exponentiation modulaire,RSA)
 - Développer une bibliothèque réutilisable et modulaire
-- Approfondir la programmation système en C
-- 
+- Approfondir la gestion des blocs en C
+  
 ## ⚠️ Limitations connues
 
-- Pas de support des formats complexes dans `mini_printf()` (seulement `%s`, `%d`)
-- Allocateur mémoire basique (pas de coalescence des blocs libres)
-- Pas de gestion multi-threading (pas thread-safe)
-- Modes de fichiers limités ('r', 'w', 'a')
+- Pas de padding dans certains modes
+- Clés et IV générés de manière pseudo-aléatoire non sécurisée
+- Gestion simplifiée du chiffrement RSA
+- Tests basiques sur de petits tailles de blocs et clés
 
 ## 🛠️ Améliorations futures
 
-- [ ] Implémentation de `mini_malloc()` et `mini_realloc()`
-- [ ] Support complet du formatage dans `mini_printf()`
+- [ ] Implémentation de padding
+- [ ] Génération de clés sécurisées
 - [ ] Coalescence des blocs mémoire libres
-- [ ] Ajout de `mini_fprintf()` et `mini_fscanf()`
+- [ ] Ajout d'un script de comparaison des perfomances
 - [ ] Tests unitaires automatisés
-- [ ] Gestion des modes binaires pour les fichiers
-- [ ] Optimisation de l'allocateur (Best Fit, Buddy System)
+
 
 ## 📚 Ressources
 
 - Pages Wikipedia des divers chiffrements
 - Entraide entre étudiants
-- Cours de cryptographie
+- Cours de cryptographie du module
 
 ## 👤 Auteur
 
